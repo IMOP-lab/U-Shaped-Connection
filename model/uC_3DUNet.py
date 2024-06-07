@@ -271,9 +271,9 @@ class UpCat(nn.Module):
     
 
 class uC_skip(nn.Module):
-    def __init__(self,spatial_dims,in_channels,channels,strides):#feat==channel
+    def __init__(self,in_channels,out_channels,channels,bilinear,first,final):#feat==channel
         super().__init__()
-        self.unet = UNet2d(in_channels, in_channels, channels, False)
+        self.unet = UNet2d(in_channels, out_channels, channels, bilinear, first, final)
 
     def forward(self, x):
         sp = x.shape[-1]
@@ -324,9 +324,9 @@ class uC_3DUNet(nn.Module):
         self.final_conv = Conv["conv", spatial_dims](fea[5], out_channels, kernel_size=1)
 
 
-        self.uC_skip0 = uC_skip(spatial_dims=2,in_channels=fea[0],channels=(fea[0],fea[1],fea[2],fea[3],fea[4]),strides=(2,2,2,2))
-        self.uC_skip1 = uC_skip(spatial_dims=2,in_channels=fea[1],channels=(fea[1],fea[2],fea[3],fea[4]),strides=(2,2,2))
-        self.uC_skip2 = uC_skip(spatial_dims=2,in_channels=fea[2],channels=(fea[2],fea[3],fea[4]),strides=(2,2))
+        self.uC_skip0 = uC_skip(in_channels=fea[0],out_channels=fea[0],channels=(fea[0],fea[1],fea[2],fea[3],fea[4]),bilinear=False,first=False,final=False)
+        self.uC_skip1 = uC_skip(in_channels=fea[1],out_channels=fea[1],channels=(fea[1],fea[2],fea[3],fea[4]),bilinear=False,first=False,final=False)
+        self.uC_skip2 = uC_skip(in_channels=fea[2],out_channels=fea[2],channels=(fea[2],fea[3],fea[4]),bilinear=False,first=False,final=False)
 
     def forward(self, x: torch.Tensor):
 
