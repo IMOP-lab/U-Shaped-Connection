@@ -68,14 +68,17 @@ class OutConv2d(nn.Module):
         return self.conv(x)
 
 class UNet2d(nn.Module):
-    def __init__(self, in_cha=3, out_cha=3, features=[32,32,32], bilinear=True):
+    def __init__(self, in_cha=3, out_cha=3, features=[32,32,32], bilinear=True, first = False, final = False):
         super().__init__()
         self.downs = nn.ModuleList()
         self.ups = nn.ModuleList()
+        self.first = first
+        self.final = final
 
         factor = 2 if bilinear else 1
 
-        # self.inc = (DoubleConv2d(in_cha, features[0]))
+        if self.first:
+            self.inc = (DoubleConv2d(in_cha, features[0]))
         in_channels = features[0]
         # Creating the downsampling layers
         for feature in features[1:]:
@@ -89,20 +92,24 @@ class UNet2d(nn.Module):
             self.ups.append(Up2d(in_channels, feature//factor))
             in_channels = feature
 
-        # self.outc = (OutConv2d(features[-1], out_cha))
+        if self.final:
+            self.outc = (OutConv2d(features[0], out_cha))
 
     def forward(self, x):
         skip_connections = []
+        if self.first:
+            x = self.inc(x)
 
-        # x = self.inc(x)
         for down in self.downs:
             skip_connections.append(x)
             x = down(x)
 
         for up, skip in zip(self.ups, reversed(skip_connections)):
+            # print(x.shape,skip.shape)
             x = up(x, skip)
 
-        # x = self.outc(x)
+        if self.final:
+            x = self.outc(x)
 
         return x
 
