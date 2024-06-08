@@ -132,8 +132,6 @@ class UNet2d(nn.Module):
             x = self.outc(x)
 
         return x
-
-
         
 # class reshape_unet(nn.Module):
 #     def __init__(self,in_channels,out_channels,channels,first):#feat==channel
@@ -160,7 +158,6 @@ class uC_skip(nn.Module):
         x1 =  self.unet(x1)
         x1 = einops.rearrange(x1, '(B W) C D H -> B C D H W',W = sp)
         return x1
-
 
 
 class uC_SwinUNETR(nn.Module):
@@ -302,7 +299,6 @@ class uC_SwinUNETR(nn.Module):
         self.out = UnetOutBlock(spatial_dims=spatial_dims, in_channels=feature_size, out_channels=out_channels)
 
 
-
     def load_from(self, weights):
         with torch.no_grad():
             self.swinViT.patch_embed.proj.weight.copy_(weights["state_dict"]["module.patch_embed.proj.weight"])
@@ -380,9 +376,6 @@ class uC_SwinUNETR(nn.Module):
         out = self.decoder1(dec0, enc0)
         logits = self.out(out)
         return logits
-
-
-
 
 
 def window_partition(x, window_size):
