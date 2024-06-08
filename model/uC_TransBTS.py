@@ -448,8 +448,6 @@ class DeBlock(nn.Module):
         return x1
 
 
-
-
 def uC_TransBTS(img_dim=96,num_classes = 4, _conv_repr=True, _pe_type="learned"):
 
     num_channels = 1
