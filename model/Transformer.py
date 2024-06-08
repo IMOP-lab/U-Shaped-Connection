@@ -1,7 +1,6 @@
 import torch.nn as nn
 from networks.TransBTS.IntmdSequential import IntermediateSequential
 
-
 class SelfAttention(nn.Module):
     def __init__(
         self, dim, heads=8, qkv_bias=False, qk_scale=None, dropout_rate=0.0
@@ -113,7 +112,6 @@ class TransformerModel(nn.Module):
             )
             # dim = dim / 2
         self.net = IntermediateSequential(*layers)
-
 
     def forward(self, x):
         return self.net(x)
