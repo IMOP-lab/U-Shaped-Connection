@@ -17,7 +17,6 @@ def normalization(planes, norm='gn'):
     return m
 
 
-
 class InitConv(nn.Module):
     def __init__(self, in_channels=4, out_channels=16, dropout=0.2):
         super(InitConv, self).__init__()
@@ -65,7 +64,6 @@ class EnDown(nn.Module):
         y = self.conv(x)
 
         return y
-
 
 
 class Unet(nn.Module):
