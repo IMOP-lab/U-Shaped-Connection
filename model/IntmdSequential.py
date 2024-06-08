@@ -1,6 +1,5 @@
 import torch.nn as nn
 
-
 class IntermediateSequential(nn.Sequential):
     def __init__(self, *args, return_intermediate=True):
         super().__init__(*args)
@@ -16,4 +15,3 @@ class IntermediateSequential(nn.Sequential):
             output = intermediate_outputs[name] = module(output)
 
         return output, intermediate_outputs
-        
