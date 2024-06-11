@@ -11,7 +11,7 @@
   Figure 1: Detailed module structure of the uC 3DU-Net.
 </p>
 
-## Environment
+## Installation
     python = 3.9.0
     pytorch = 2.0.0+cu118
     monai = 0.9.0
@@ -20,24 +20,25 @@
 # Experiment
 
 ## Quantitative Results
-<div align=center>
+<div>
   <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/tables/fig1.png"width=80% height=80%>
 </div>
-<p align=center>
-  Fig. 2: Quantitative results on the FALRE2021, OIMHS, and SegTHOR datasets.
+<p>
+  Fig. 2: Quantitative results on the FALRE2021 and FeTA2021 datasets.
 </p>
 
-<div align=center>
-  <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/tables/fig2.png"width=80% height=80%>
+<div>
+  <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/tables/fig2.png"width=40% height=40%>
 </div>
-<p align=center>
-  Fig. 2: Quantitative results on the FALRE2021, OIMHS, and SegTHOR datasets.
+<p>
+  Fig. 3: Quantitative results on the OIMHS dataset.
 </p>
-<div align=center>
-  <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/tables/fig3.png"width=80% height=80%>
+
+<div>
+  <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/tables/fig3.png"width=40% height=40%>
 </div>
-<p align=center>
-  Fig. 2: Quantitative results on the FALRE2021, OIMHS, and SegTHOR datasets.
+<p>
+  Fig. 4: Quantitative results on the AbdomenCT-1K dataset.
 </p>
 
 ## Qualitative Results
