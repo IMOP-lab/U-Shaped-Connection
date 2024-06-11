@@ -24,21 +24,21 @@
 
 ## Quantitative Results
 <div>
-  <img src="https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch/blob/main/tables/fig1.png"width=80% height=80%>
+  <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/tables/fig1.png"width=80% height=80%>
 </div>
 <p>
   Table 1: Quantitative results on the FALRE2021 and FeTA2021 datasets.
 </p>
 
 <div>
-  <img src="https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch/blob/main/tables/fig2.png"width=40% height=40%>
+  <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/tables/fig2.png"width=40% height=40%>
 </div>
 <p>
   Table 2: Quantitative results on the OIMHS dataset.
 </p>
 
 <div>
-  <img src="https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch/blob/main/tables/fig3.png"width=40% height=40%>
+  <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/tables/fig3.png"width=40% height=40%>
 </div>
 <p>
   Table 3: Quantitative results on the AbdomenCT-1K dataset.
@@ -46,14 +46,14 @@
 
 ## Qualitative Results
 <div align=center>
-  <img src="https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch/blob/main/figures/flare2d.png"width=80% height=80%>
+  <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/figures/flare2d.png"width=80% height=80%>
 </div>
 <p align=center>
   Fig. 2: Qualitative results of the uC’s impact on segmentation performance in 3DUX-Net and SegResNet models on the FALRE2021 dataset.
 </p>
 
 <div align=center>
-  <img src="https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch/blob/main/figures/image_2d.png"width=80% height=80%>
+  <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/figures/image_2d.png"width=80% height=80%>
 </div>
 <p align=center>
   Fig. 3: Qualitative results of the segmentation performance on 3DUX-Net and 3DUXNET+uC with various channel depths on the OIMHS dataset.
