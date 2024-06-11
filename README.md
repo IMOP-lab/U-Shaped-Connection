@@ -11,6 +11,8 @@
   Figure 1: Detailed module structure of the uC 3DU-Net.
 </p>
 
+**We introduce uC3D U-Net, which integrates U-Shaped Connection into a 3D U-Net backbone, augmented with a dual feature integration (DFi) module.**
+
 ## Installation
     python = 3.9.0
     pytorch = 2.0.0+cu118
