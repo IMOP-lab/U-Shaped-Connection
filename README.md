@@ -16,6 +16,7 @@
     pytorch = 2.0.0+cu118
     monai = 0.9.0
     numpy = 1.23.2
+For a full list of software packages and version numbers, see the experimental environment file 'environment.yml'.
 
 # Experiment
 
@@ -24,26 +25,33 @@
   <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/tables/fig1.png"width=80% height=80%>
 </div>
 <p>
-  Fig. 2: Quantitative results on the FALRE2021 and FeTA2021 datasets.
+  Table 1: Quantitative results on the FALRE2021 and FeTA2021 datasets.
 </p>
 
 <div>
   <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/tables/fig2.png"width=40% height=40%>
 </div>
 <p>
-  Fig. 3: Quantitative results on the OIMHS dataset.
+  Table 2: Quantitative results on the OIMHS dataset.
 </p>
 
 <div>
   <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/tables/fig3.png"width=40% height=40%>
 </div>
 <p>
-  Fig. 4: Quantitative results on the AbdomenCT-1K dataset.
+  Table 3: Quantitative results on the AbdomenCT-1K dataset.
 </p>
 
 ## Qualitative Results
 <div align=center>
-  <img src="https://github.com/IMOP-lab/PaR-Pytorch/blob/main/tables/PaR_cmp_result.png"width=80% height=80%>
+  <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/figures/flare2d.png"width=80% height=80%>
+</div>
+<p align=center>
+  Fig. 2: Qualitative results on the FALRE2021, OIMHS, and SegTHOR datasets.
+</p>
+
+<div align=center>
+  <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/figures/image_2d.png"width=80% height=80%>
 </div>
 <p align=center>
   Fig. 3: Qualitative results on the FALRE2021, OIMHS, and SegTHOR datasets.
