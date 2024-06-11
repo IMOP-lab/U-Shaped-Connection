@@ -58,7 +58,7 @@ For a full list of software packages and version numbers, please take a look at 
 </p>
 
 ## License
-**This project is licensed under the [MIT license]().**
+**This project is licensed under the [MIT license](https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/LICENSE).**
 
 ## Contributors
 **The project was implemented with the help of the following contributors:**
