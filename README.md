@@ -1,7 +1,7 @@
 # U-Shaped Connection
 **Official code implementation of 'Upping the Game: How 2D U-Net Skip Connection Flipping 3D Segmentation'**
 
-### [Project page](https://github.com/IMOP-lab/U-Shaped Connection-Pytorch) | [Our laboratory home page](https://github.com/IMOP-lab)
+### [Project page](https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch) | [Our laboratory home page](https://github.com/IMOP-lab)
 
 # Methodology
 <div align=center>
