@@ -18,7 +18,7 @@
     pytorch = 2.0.0+cu118
     monai = 0.9.0
     numpy = 1.23.2
-**For a full list of software packages and version numbers, please take a look at the experimental environment file 'environment.yaml'.**
+**For a full list of software packages and version numbers, please take a look at the experimental environment file [environment.yaml](https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/environment.yaml).**
 
 # Experiment
 
@@ -60,7 +60,7 @@
 </p>
 
 ## License
-**This project is licensed under the [MIT license](https://github.com/IMOP-lab/U-Shaped Connection-Pytorch/blob/main/LICENSE).**
+**This project is licensed under the [MIT license](https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch/blob/main/LICENSE).**
 
 ## Contributors
 **The project was implemented with the help of the following contributors:**
