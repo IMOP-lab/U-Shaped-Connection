@@ -16,7 +16,7 @@
     pytorch = 2.0.0+cu118
     monai = 0.9.0
     numpy = 1.23.2
-For a full list of software packages and version numbers, see the experimental environment file 'environment.yml'.
+For a full list of software packages and version numbers, please take a look at the experimental environment file 'environment.yml'.
 
 # Experiment
 
@@ -47,20 +47,20 @@ For a full list of software packages and version numbers, see the experimental e
   <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/figures/flare2d.png"width=80% height=80%>
 </div>
 <p align=center>
-  Fig. 2: Qualitative results on the FALRE2021, OIMHS, and SegTHOR datasets.
+  Fig. 2: Qualitative results of the uC’s impact on segmentation performance in 3DUX-Net and SegResNet models on the FALRE2021 dataset.
 </p>
 
 <div align=center>
   <img src="https://github.com/IMOP-lab/U-skip-Pytorch/blob/main/figures/image_2d.png"width=80% height=80%>
 </div>
 <p align=center>
-  Fig. 3: Qualitative results on the FALRE2021, OIMHS, and SegTHOR datasets.
+  Fig. 3: Qualitative results of the segmentation performance on 3DUX-Net and 3DUXNET+uC with various channel depths on the OIMHS dataset.
 </p>
 
 ## License
-**This project is licensed under the [MIT license](https://github.com/IMOP-lab/PaR-Pytorch/blob/main/LICENSE).**
+**This project is licensed under the [MIT license]().**
 
 ## Contributors
-**The PaR project was implemented with the help of the following contributors:**
+**The project was implemented with the help of the following contributors:**
 
-Xingru Huang, Jian Huang, Yihao Guo, Tianyun Zhang, Yaoqi Sun, Hong He, Shaowei Jiang.
+Xingru Huang, Yihao Guo, Jian Huang, Tianyun Zhang, Hong He, Shaowei Jiang, Yaoqi Sun.
