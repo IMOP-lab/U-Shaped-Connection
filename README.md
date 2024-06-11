@@ -16,7 +16,7 @@
     pytorch = 2.0.0+cu118
     monai = 0.9.0
     numpy = 1.23.2
-For a full list of software packages and version numbers, please take a look at the experimental environment file 'environment.yml'.
+For a full list of software packages and version numbers, please take a look at the experimental environment file 'environment.yaml'.
 
 # Experiment
 
