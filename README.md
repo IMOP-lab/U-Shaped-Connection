@@ -14,21 +14,72 @@ In the present study, we introduce an innovative structure for 3D medical image 
 <div align="center">
   <img src="media/uC-3DU-Net.png">
 </div>
-<p align="center">
-  Figure 1: Detailed module structure of the uC 3DU-Net.
-</p>
 
-**We introduce uC3D U-Net, which integrates U-Shaped Connection into a 3D U-Net backbone, augmented with a dual feature integration (DFi) module.**
+We introduce uC3D U-Net, which integrates U-Shaped Connection (uC) into a 3D U-Net backbone, augmented with a dual feature integration (DFi) module.
 
-## Installation
-    python = 3.9.0
-    pytorch = 2.0.0+cu118
-    monai = 0.9.0
-    numpy = 1.23.2
-**For a full list of software packages and version numbers, please take a look at the experimental environment file [environment.yaml](https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/environment.yaml).**
+## 🚀Installation
+
+**We run the code with `cuda=11.8`, `python=3.9.0`, `pytorch=2.0.0+cu118`, and `torchvision=0.15.1+cu118`. Please follow the instructions [here](https://pytorch.org/get-started/locally/) to install both pytorch and torchvision dependencies, and follow the instructions [here](https://developer.nvidia.com/cuda-toolkit-archive) to install cuda dependencies.**
+
+### Clone the repository locally
+```
+git clone https://github.com/IMOP-lab/U-Shaped-Connection.git --recurse
+```
+    
+### Environment setup
+```
+conda env create --file environment.yaml
+```
+
+## 🚀Getting Started
+First download the dataset according to the dataset download link provided [datasets_download.md](datasets_download.md).
+
+#### Datasets format
+The format of the dataset folder is as follows:
+```
+./datasets/
+├── ABCT1K
+├── FeTA
+├── FLARE
+├── OIMHS
+├── BTCV
+├── ...
+```
+
+The dataset subfolders are further divided into training sets, validation sets, and test sets in the following format:
+```
+path to the dataset/
+├── imagesTr
+├── labelsTr
+├── imagesVal
+├── labelsVal
+├── imagesTs
+├── original_labelTs
+├── shapes.json
+```
+The original_labelTs folder includes all raw unlabeled data, shapes.json is each sample and its corresponding shape, for example: "train_000.nii.gz": [512, 512, 110], currently our framework only supports data in `.nii.gz` format.
+
+#### Pre-trained model
+We provide the model checkpoint at [baidu netdisk](https://pan.baidu.com/s/12muB9pcgXBDXAWQxr6gIWA?pwd=0721).
+
+#### Run the codes
+You can use pre-trained models to inference by running:
+```
+bash pretrained_test.sh
+```
+
+And you can also train and test your own model by running:
+```
+bash run_gpu.sh
+```
+
+The model parameters, FLOPs, and inference time can be tested by running:
+```
+python cost.py
+```
 
 # Experiment
-
+  
 ## Quantitative Results
 <div>
   <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/tables/fig1.png"width=80% height=80%>
