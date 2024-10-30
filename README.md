@@ -90,11 +90,12 @@ python cost.py
 |UNETR | 92.8M | 82.6G | 80.52 | 88.11 | 19.48 | 30.07 | 87.21 |
 | **uC 3DU-Net** | **21.7M** | **286.43G** | **89.48** | **94.13** | **10.52** | **2.98** | **93.62** |
 
-#### Qualitative Results
+#### Qualitative Results on FLARE2021 dataset
 <div align="center">
   <img width="800" src="media/flare.png">
 </div>
 
+#### Qualitative Results on backbones
 <div align="center">
   <img width="800" src="media/uc_backbones_detailed.png">
 </div>
