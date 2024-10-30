@@ -104,7 +104,7 @@ python cost.py
 **This project is licensed under the [MIT license](https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch/blob/main/LICENSE).**
 
 ## 🎫 Acknowledgment
-We sincerely appreciate the outstanding contributions of [monai](https://github.com/Project-MONAI/MONAI) and [3DUX-Net](https://github.com/MASILab/3DUX-Net) projects, which have been instrumental in the successful implementation of this work.
+We sincerely appreciate the outstanding contributions of [monai](https://github.com/Project-MONAI/MONAI) and [3DUX-Net](https://github.com/MASILab/3DUX-Net) projects, which have been helpful in the successful implementation of this project.
 
 ## 🎫 Contributors
 **The project is implemented with the help of the following contributors:**
