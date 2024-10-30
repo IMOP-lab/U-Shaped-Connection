@@ -123,7 +123,7 @@ sample2 = np.array([
 0.880486269
 ])
 
-# Check for the same distribution
+### Check for the same distribution
 stat, p_value = wilcoxon(sample1, sample2)
 print(f"statistic: {stat}, p value: {p_value}")
 
@@ -135,7 +135,7 @@ if p_value < alpha:
 else:
     print("There is no significant difference and the null hypothesis cannot be rejected")
 
-# Wilcoxon signed rank test (one-tailed test)
+### Wilcoxon signed rank test (one-tailed test)
 difference = sample1 - sample2
 stat, p_value = wilcoxon(difference, alternative='greater')
 print(f"statistic: {stat}, p value: {p_value}")
