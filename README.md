@@ -80,19 +80,17 @@ python cost.py
 
 We show some experimental results here.
 
-#### Quantitative Results
+#### Quantitative Results on OIMHS dataset
 | Method | #Params | FLOPs | mIoU | Dice | VOE | HD95 | AdjRand |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-|[3D U-Net](https://arxiv.org/abs/1606.06650) | 4.81M | 135.9G | 86.02 | 92.05 | 13.98 | 6.77 | 91.34 |
-|[Swin UNETR](https://arxiv.org/abs/2111.05067) | 62.2M | 328.4G | 86.73 | 92.53 | 13.27 | 5.09 | 91.85 |
-|[3D UX-Net](https://arxiv.org/abs/2303.05379) | 53.0M | 639.4G | 87.43 | 92.90 | 12.57 | 4.41 | 92.27 |
-|[SASAN](https://arxiv.org/abs/2307.10430) | 22.96M | 282.92G | 88.44 | 93.53 | 11.56 | 3.14 | 92.96 |
-|[nnFormer](https://arxiv.org/abs/2304.07477) | 149.3M | 240.2G | 72.16 ± 7.91 | 81.60 ± 7.41 | 27.84 ± 25.07 | 23.49 ± 7.91 | 80.36 ± 7.73 |
-|[TransBTS](https://arxiv.org/abs/2103.04430) | 31.6M | 110.4G | 74.80 ± 7.31 | 83.08 ± 6.55 | 25.20 ± 23.82 | 31.43 ± 7.31 | 82.05 ± 6.85 |
-|[UNETR](https://arxiv.org/abs/2103.10504) | 92.8M | 82.6G | 80.52 ± 6.68 | 88.11 ± 5.41 | 19.48 ± 30.31 | 30.07 ± 6.68 | 87.21 ± 5.56 |
+|3D U-Net | 4.81M | 135.9G | 86.02 | 92.05 | 13.98 | 6.77 | 91.34 |
+|Swin UNETR | 62.2M | 328.4G | 86.73 | 92.53 | 13.27 | 5.09 | 91.85 |
+|3D UX-Net | 53.0M | 639.4G | 87.43 | 92.90 | 12.57 | 4.41 | 92.27 |
+|SASAN | 22.96M | 282.92G | 88.44 | 93.53 | 11.56 | 3.14 | 92.96 |
+|nnFormer | 149.3M | 240.2G | 72.16 ± 7.91 | 81.60 ± 7.41 | 27.84 ± 25.07 | 23.49 ± 7.91 | 80.36 ± 7.73 |
+|TransBTS | 31.6M | 110.4G | 74.80 ± 7.31 | 83.08 ± 6.55 | 25.20 ± 23.82 | 31.43 ± 7.31 | 82.05 ± 6.85 |
+|UNETR | 92.8M | 82.6G | 80.52 ± 6.68 | 88.11 ± 5.41 | 19.48 ± 30.31 | 30.07 ± 6.68 | 87.21 ± 5.56 |
 | **uC 3DU-Net** | **21.7M** | **286.43G** | **89.48 ± 3.56** | **94.13 ± 2.56** | **10.52 ± 5.61** | **2.98 ± 3.56** | **93.62 ± 2.66** |
-
-**Table 1**: Comparative experimental results of uC 3DU-Net and 7 previous methods on the OIMHS dataset. The best values for each metric are highlighted in bold. Part of the data comes from [Huang et al., 2024](https://arxiv.org/abs/2307.10430).
 
 #### Qualitative Results
 <div align="center">
