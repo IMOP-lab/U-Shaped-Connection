@@ -78,52 +78,38 @@ The model parameters, FLOPs, and inference time can be tested by running:
 python cost.py
 ```
 
-# Experiment
-  
-## Quantitative Results
+We show some experimental results here.
+
+#### Quantitative Results
 <div>
   <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/tables/fig1.png"width=80% height=80%>
 </div>
-<p>
-  Table 1: Quantitative results on the FALRE2021 and FeTA2021 datasets.
-</p>
 
 <div>
   <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/tables/fig2.png"width=40% height=40%>
 </div>
-<p>
-  Table 2: Quantitative results on the OIMHS dataset.
-</p>
 
 <div>
   <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/tables/fig3.png"width=40% height=40%>
 </div>
-<p>
-  Table 3: Quantitative results on the AbdomenCT-1K dataset.
-</p>
 
-## Qualitative Results
+#### Qualitative Results
 <div align="center">
   <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/figures/flare2d.png"width=80% height=80%>
 </div>
-<p align="center">
-  Fig. 2: Qualitative results of the uC’s impact on segmentation performance in 3DUX-Net and SegResNet models on the FALRE2021 dataset.
-</p>
 
 <div align="center">
   <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/figures/image_2d.png"width=80% height=80%>
 </div>
-<p align="center">
-  Fig. 3: Qualitative results of the segmentation performance on 3DUX-Net and 3DUXNET+uC with various channel depths on the OIMHS dataset.
-</p>
 
-## License
+## 🎫License
 **This project is licensed under the [MIT license](https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch/blob/main/LICENSE).**
 
+## 🎫 Acknowledgment
+We sincerely appreciate the outstanding contributions of [monai](https://github.com/Project-MONAI/MONAI) and [3DUX-Net](https://github.com/MASILab/3DUX-Net) projects, which have been instrumental in the successful implementation of this work.
+
 ## Contributors
-**The project was implemented with the help of the following contributors:**
-
+**The project is implemented with the help of the following contributors:**
+```
 Xingru Huang, Yihao Guo, Jian Huang, Tianyun Zhang, Hong He, Shaowei Jiang, Yaoqi Sun.
-
-
-
+```
