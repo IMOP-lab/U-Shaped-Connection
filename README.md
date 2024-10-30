@@ -92,11 +92,11 @@ python cost.py
 
 #### Qualitative Results
 <div align="center">
-  <iframe src="media/flare.pdf" width="800" height="600"></iframe>
+  <img width="800" src="media/flare.png">
 </div>
 
 <div align="center">
-  <iframe src="media/uc_backbones_detailed.pdf" width="800" height="600"></iframe>
+  <img width="800" src="media/uc_backbones_detailed.png">
 </div>
 
 ## 🎫License
