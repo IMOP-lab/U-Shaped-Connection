@@ -92,11 +92,11 @@ python cost.py
 
 #### Qualitative Results
 <div align="center">
-  <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/figures/flare2d.png"width=80% height=80%>
+  <iframe src="media/flare.pdf" width="800" height="600"></iframe>
 </div>
 
 <div align="center">
-  <img src="https://github.com/IMOP-lab/U-Shaped-Connection/blob/main/figures/image_2d.png"width=80% height=80%>
+  <iframe src="media/uc_backbones_detailed.pdf" width="800" height="600"></iframe>
 </div>
 
 ## 🎫License
