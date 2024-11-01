@@ -19,7 +19,7 @@ We introduce uC3D U-Net, which integrates U-Shaped Connection (uC) into a 3D U-N
 
 ## 🚀Installation
 
-**We run the code with `cuda=11.8`, `python=3.9.0`, `pytorch=2.0.0+cu118`, and `torchvision=0.15.1+cu118`. Please follow the instructions [here](https://pytorch.org/get-started/locally/) to install both pytorch and torchvision dependencies, and follow the instructions [here](https://developer.nvidia.com/cuda-toolkit-archive) to install cuda dependencies.**
+**We run the code with `cuda=11.8`, `python=3.9.0`, `pytorch=2.0.0+cu118`, and `torchvision=0.15.1+cu118`. Please follow the instructions [here](https://developer.nvidia.com/cuda-toolkit-archive) to install cuda dependencies, and follow the instructions [here](https://pytorch.org/get-started/locally/) to install both pytorch and torchvision dependencies.**
 
 ### Clone the repository locally
 ```
