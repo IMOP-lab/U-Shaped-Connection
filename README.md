@@ -3,7 +3,7 @@
   <h2>NeurIPS 2024 (poster)</h2>
 </div>
 
-## [Project page](https://github.com/IMOP-lab/U-Shaped-Connection-Pytorch) | [Our laboratory home page](https://github.com/IMOP-lab)
+## [Paper](https://openreview.net/pdf?id=QI1ScdeQjp) | [Our laboratory home page](https://github.com/IMOP-lab)
 
 ## 📖 Abstract
 
