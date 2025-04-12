@@ -57,7 +57,7 @@ path to the dataset/
 ├── original_labelTs
 ├── shapes.json
 ```
-The original_labelTs folder includes all raw unlabeled data, shapes.json is each sample and its corresponding shape, for example: "train_000.nii.gz": [512, 512, 110], currently our framework only supports data in `.nii.gz` format.
+The original_labelTs folder includes all raw labeled data, and shapes.json is each sample and its corresponding shape, for example: "train_000.nii.gz": [512, 512, 110]. Currently, our framework only supports data in `.nii.gz` format.
 
 #### Pre-trained model
 We provide the model checkpoint at [baidu netdisk](https://pan.baidu.com/s/12muB9pcgXBDXAWQxr6gIWA?pwd=0721).
